@@ -44,12 +44,12 @@ class CodigoTestado3():
 
     def coletar_paguemenos(driver):
         medicamentos_paguemenos = [
-            {
-                'idfarmacia': 1,
-                'idmedicamento': 1,
-                'link': 'https://www.paguemenos.com.br/dipirona-500mg-envelope-com-10-comprimidos-generico-ems/p',
-                'preco': -1
-            }, #dipirona
+           # {
+            #    'idfarmacia': 1,
+             #   'idmedicamento': 1,
+                
+              #  'preco': -1
+            #}, #dipirona
             {
                 'idfarmacia': 1,
                 'idmedicamento': 2,
