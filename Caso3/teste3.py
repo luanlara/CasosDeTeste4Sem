@@ -25,7 +25,7 @@ class TesteRaspagem(unittest.TestCase):
         engine.dispose()
         print(len(registros))
 
-        self.assertEqual(len(registros) - inicio, 16, "Inserção incompleta")
+        self.assertEqual(len(registros) - inicio, 15, "Inserção incompleta")
 
 if __name__ == '__main__':
     #run all test

@@ -10,12 +10,12 @@ class TesteRaspagem(unittest.TestCase):
 
         driver.close()
 
-        self.assertEqual(len(paguemenos), 16, "Erro na lista")
+        self.assertEqual(len(paguemenos), 15, "Erro na lista")
         contador = 0
         for medicamento in paguemenos:
             self.assertNotEqual(medicamento['preco'], -1, "Problema no preco")
             contador += 1
-        self.assertGreaterEqual(contador, 16, "Lista menor que o esperado")
+        self.assertGreaterEqual(contador, 15, "Lista menor que o esperado")
 
 if __name__ == '__main__':
     #run all test
